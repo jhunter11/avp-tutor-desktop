@@ -1,0 +1,13 @@
+{
+  "short_name": "AVP",
+  "name": "Algorithm Visualization Project",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}

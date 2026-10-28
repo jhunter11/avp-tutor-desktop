@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  @apply h-dvh min-h-dvh max-h-dvh w-dvw min-w-dvw max-w-dvw;
+  @apply bg-[#ffffff] dark:bg-[#18181c] text-primary;
+  @apply transition-colors duration-200 **:duration-200;
+  @apply overflow-hidden;
+}
+
+.avp-highlight {
+  @apply bg-[dodgerblue]/15 dark:bg-[yellow]/15;
+  @apply w-full!;
+}
+
+.avp-greyout {
+  @apply bg-[#ffffff]/70 dark:bg-[#18181c]/70 z-50 pointer-events-none;
+  @apply w-full!;
+}

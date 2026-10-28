@@ -1,0 +1,25 @@
+// Lomuto Partition
+
+a1 = arr[1, 19, 5, 10, 4, 6, 7]
+
+fun Lomuto_Partition(@init<table> array, low, high): 
+    // Choose the pivot - last element of sub-array
+    @mark<high, highlight, yellow> pivot = array[high]
+
+    // Index of smaller element (boundary for elements < pivot)
+    i = low - 1
+
+    for (j = low, j < high, j += 1):
+        // Check to see if current element is smaller than pivot
+        @mark<j, outline, yellow> if (array[j] < pivot):
+            i += 1
+            @mark<i, highlight, green> swap (array[i], array[j]) 
+        end if
+    end for
+
+    @mark<i, highlight, green> swap (array[i + 1], array[high]) 
+
+    return i + 1  // Return the high pivot index
+
+end fun
+result = Lomuto_Partition(a1, 0, length(a1) - 1)

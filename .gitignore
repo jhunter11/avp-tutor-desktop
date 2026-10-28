@@ -1,0 +1,30 @@
+.DS_Store
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+
+# Vitest
+/screenshots/
+/.vitest-attachments/
+
+# ANTLR
+.antlr/
+
+# Local tutor secrets and Python artifacts
+.env
+.env.*
+!.env.example
+api-key.txt
+__pycache__/
+*.pyc
+
+# Local runtime and transfer artifacts
+*.log
+*.zip
+.venv/
+venv/
+coverage/
+playwright-report/
+test-results/
