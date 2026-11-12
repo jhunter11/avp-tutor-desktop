@@ -1,0 +1,15 @@
+{
+  "chapters": 9,
+  "flat_chapters": 8,
+  "spatial_chapters": 1,
+  "font_families": [
+    "Avenir Next",
+    "Menlo",
+    "STIX Two Text"
+  ],
+  "minimum_declared_font_size": 22,
+  "safe_frame_and_padding": "2D frame bounds and panel containment checked during render; 3D frame inspected visually.",
+  "camera_direction_checks": "2D API follows request right and response left; code push-in returns to overview; 3D orbit averages 2.25 and peaks at 4.5 degrees/second.",
+  "exact_span_error": 2.886579864025407e-15,
+  "limitation": "Geometric checks supplement visual review; they do not prove absence of every visual overlap."
+}

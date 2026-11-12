@@ -1,0 +1,173 @@
+{
+  "chapter": "api",
+  "dimensions": 2,
+  "seconds": 18,
+  "reading_hold_seconds": 3.2,
+  "camera_moves": [
+    {
+      "type": "2D pan/zoom",
+      "from": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.8,
+        0.2,
+        0.0
+      ],
+      "width_from": 16.0,
+      "width_to": 17.0,
+      "seconds": 1.6,
+      "units_per_second": 0.5153882032022076,
+      "peak_units_per_second": 1.0307764064044151,
+      "rotation_degrees": 0
+    },
+    {
+      "type": "2D pan/zoom",
+      "from": [
+        0.8000000000000007,
+        0.20000000000000018,
+        0.0
+      ],
+      "to": [
+        -0.8,
+        0.2,
+        0.0
+      ],
+      "width_from": 17.0,
+      "width_to": 17.0,
+      "seconds": 1.6,
+      "units_per_second": 1.0000000000000004,
+      "peak_units_per_second": 2.000000000000001,
+      "rotation_degrees": 0
+    },
+    {
+      "type": "2D pan/zoom",
+      "from": [
+        -0.8000000000000007,
+        0.20000000000000018,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "width_from": 17.0,
+      "width_to": 16,
+      "seconds": 1.2,
+      "units_per_second": 0.6871842709362773,
+      "peak_units_per_second": 1.3743685418725546,
+      "rotation_degrees": 0
+    }
+  ],
+  "text": [
+    {
+      "text": "Keep one frontend API",
+      "font": "STIX Two Text",
+      "declared_size": 36,
+      "width": 4.8183,
+      "height": 0.4664
+    },
+    {
+      "text": "AVP RAG  /  07 OF 09",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.8158,
+      "height": 0.2273
+    },
+    {
+      "text": "OFFLINE EXTRACT",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.645,
+      "height": 0.2273
+    },
+    {
+      "text": "Frontend",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.6563,
+      "height": 0.3201
+    },
+    {
+      "text": "Student context",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 2.5727,
+      "height": 0.2795
+    },
+    {
+      "text": "Tutor backend",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 2.6866,
+      "height": 0.3201
+    },
+    {
+      "text": "Fixed API",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 1.4681,
+      "height": 0.2773
+    },
+    {
+      "text": "RAG lookup",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 2.2281,
+      "height": 0.415
+    },
+    {
+      "text": "Question only",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 2.2784,
+      "height": 0.3598
+    },
+    {
+      "text": "POST /api/tutor",
+      "font": "Avenir Next",
+      "declared_size": 24,
+      "width": 2.3385,
+      "height": 0.3221
+    },
+    {
+      "text": "Lookup",
+      "font": "Avenir Next",
+      "declared_size": 24,
+      "width": 1.0927,
+      "height": 0.332
+    },
+    {
+      "text": "Source passages",
+      "font": "Avenir Next",
+      "declared_size": 24,
+      "width": 2.5215,
+      "height": 0.3221
+    },
+    {
+      "text": "Text reply",
+      "font": "Avenir Next",
+      "declared_size": 24,
+      "width": 1.4509,
+      "height": 0.332
+    },
+    {
+      "text": "The backend returns the text answer.",
+      "font": "Avenir Next",
+      "declared_size": 28,
+      "width": 6.4645,
+      "height": 0.2986
+    },
+    {
+      "text": "Only the question enters lookup. Offline mode does not analyze screenshots or student code.",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 12.9749,
+      "height": 0.7963
+    }
+  ],
+  "safe_frame_check": "passed"
+}

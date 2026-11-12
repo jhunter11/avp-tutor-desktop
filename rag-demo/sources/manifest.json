@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "id": "avp-explanations",
+      "title": "Search and insertion reasoning",
+      "algorithm": "general",
+      "kind": "teaching_note",
+      "path": "sources/explanations.json",
+      "chunking": "manual",
+      "tutor_visible": true,
+      "revision": "local-v1",
+      "license": "Project-authored explanations; team license review pending",
+      "review_status": "pending human review"
+    },
+    {
+      "id": "avp-syntax",
+      "title": "AVP language syntax",
+      "algorithm": "general",
+      "kind": "avp_excerpt",
+      "path": "sources/avp-syntax.json",
+      "chunking": "manual",
+      "tutor_visible": true,
+      "revision": "grammar-50e1b60-local-v1",
+      "license": "Project-authored explanations; grammar attribution in ATTRIBUTION.md",
+      "review_status": "pending human prose review",
+      "validation_report": "reports/syntax-validation.json"
+    }
+  ]
+}

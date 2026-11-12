@@ -22,3 +22,6 @@
 .tutor-dots i:nth-child(3) { animation-delay: .4s; }
 @keyframes tutor-pulse { 0%, 70%, 100% { opacity: .25; } 35% { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .tutor-dots i { animation: none; opacity: .7; } }
+
+.tutor-answer { white-space: pre-wrap; overflow-wrap: anywhere; }
+.tutor-answer pre { white-space: pre-wrap; overflow-wrap: anywhere; background: #eef1f5; color: #17212b; border-radius: .35rem; padding: .65rem; margin: .6rem 0; font: .8rem/1.5 ui-monospace, monospace; }

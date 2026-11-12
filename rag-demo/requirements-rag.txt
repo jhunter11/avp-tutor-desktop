@@ -1,0 +1,4 @@
+# Python 3.11. Local CPU inference; weights load from the pinned cache with safetensors.
+torch==2.2.2
+transformers==4.44.2
+numpy==1.26.4

@@ -1,0 +1,15 @@
+// Insertion Sort
+
+fun Insertion_Sort(@init<table> a):
+    for (i = 1; i < length(a); i += 1):
+        key = a[i]
+        j = i - 1
+        while (j >= 0 and a[j] > key):
+            a[j + 1] = a[j]
+            j -= 1
+        end while
+        a[j + 1] = key
+    end for
+    return a
+end fun
+

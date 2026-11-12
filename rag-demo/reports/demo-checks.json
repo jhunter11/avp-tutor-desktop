@@ -1,0 +1,83 @@
+{
+  "recorded_at": "2026-11-11T11:19:08.424189-05:00",
+  "status": "tested_local",
+  "scope": "Separate RAG retrieval inspection page; no old-frontend integration or remote publication.",
+  "url": "http://127.0.0.1:5192/",
+  "mode": "offline_source_extract",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "dimensions": 384,
+  "indexed_chunks": 125,
+  "answer_passages": 36,
+  "verification": {
+    "command": "npm run verify",
+    "exit_code": 0,
+    "log": "reports/verify.log",
+    "python_tests": 29,
+    "reference_execution_cases": 440,
+    "reference_guard_checks": 5,
+    "deliberate_practice_faults_detected": 9,
+    "build": "TypeScript and Vite 8.3.8 passed"
+  },
+  "retrieval_evaluation": {
+    "report": "reports/rag-evaluation.json",
+    "expected_source_in_top_3": 9,
+    "algorithm_questions": 9,
+    "unrelated_abstentions": 2,
+    "unrelated_questions": 2,
+    "expected_source_in_single_extracted_answer": 5,
+    "scope": "Authored smoke set seen during development; not held out."
+  },
+  "http_checks": {
+    "through_vite_proxy": true,
+    "status_endpoint": 200,
+    "query_results": [
+      {
+        "question": "Why does binary search need a sorted array?",
+        "http_status": 200,
+        "first_source": "binary_search.note.1",
+        "query_dimensions": 384
+      },
+      {
+        "question": "How does insertion sort avoid losing a value?",
+        "http_status": 200,
+        "first_source": "insertion_sort.note.1",
+        "query_dimensions": 384
+      },
+      {
+        "question": "How do I bake sourdough bread?",
+        "http_status": 200,
+        "sources": [],
+        "query_dimensions": 384
+      }
+    ]
+  },
+  "visual_check": {
+    "status": "blocked_mac_locked",
+    "observation": "Native Chrome showed the RAG page with 125 source vectors, 36 answer passages and no visualizer. Final answer screenshot and interaction check prevented by Mac lock."
+  },
+  "live_answer_generation": {
+    "status": "not_verified",
+    "observation": "The earlier provider request rejected the existing key. User selected labelled offline operation. No further provider calls."
+  },
+  "original_frontend": {
+    "head": "50e1b608983a98837e9f2af163cafeadbe85526c",
+    "status_porcelain": []
+  },
+  "limitations": [
+    "Similarity cutoff is not calibrated.",
+    "The offline answer quotes one retrieved passage; it does not synthesize or reason across sources.",
+    "Prose review pending; execution checks do not establish teaching quality or human learning.",
+    "Not merged, deployed or published."
+  ],
+  "corpus_sha256": "6a58564afd12030efb6e1c841a3b6092f2ee962a9c428a9589d16ec27f0ae8d6",
+  "source_hashes": {
+    "src/rag.ts": "8c2aa019f19dce70477cfbec6b53197a4b05f1e5747479d629ef9ccf74c29af1",
+    "src/rag.css": "4732473203d3b7e0f0d2cb23065ba7ea480a9a579ea6cb48397b382c52b20055",
+    "index.html": "574ad77c88fbdd737de2ab4b001677cf94399aa3afca08baf9c3a7b788af52b1",
+    "backend/embeddings.py": "79a7f9daa4edc074b33f35730d46146ce2806e71f774350dee8b146f2a3c2b29",
+    "backend/vector_rag.py": "2b986071c2357d0a0905da5fc726b4c37229799e3445d26b2c9209f0284a9047",
+    "backend/rag_server.py": "6b8131e3f2a494d67b9bf235d5ccb2f84e8b9e4353cad48a753a4be79db2eb5f",
+    "data/vectors.json": "87a4aba4b6f2fec3c5ea807504855e95426e660fbda567da96682f21cfd92ede"
+  }
+}

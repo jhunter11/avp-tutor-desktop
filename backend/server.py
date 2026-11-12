@@ -10,7 +10,12 @@ from .providers import Provider, ProviderConfig
 from .tutor import MAX_BODY, envelope, reply
 
 
-def make_server(port=8781, provider_factory=lambda: Provider(ProviderConfig.from_environment())):
+def make_server(port=8781, provider_factory=None):
+    if provider_factory is None:
+        if os.environ.get('TUTOR_REPLY_MODE')=='offline_rag':
+            from .grounding import OfflineRagProvider
+            provider_factory=OfflineRagProvider
+        else:provider_factory=lambda: Provider(ProviderConfig.from_environment())
     class Handler(BaseHTTPRequestHandler):
         def log_message(self, *args):
             pass
@@ -26,7 +31,9 @@ def make_server(port=8781, provider_factory=lambda: Provider(ProviderConfig.from
 
         def do_GET(self):
             if self.path == '/health':
-                self.send_json(200, {'status': 'ok', 'schema_version': '1'})
+                self.send_json(200, {'status': 'ok', 'schema_version': '1',
+                                    'reply_mode':os.environ.get('TUTOR_REPLY_MODE','live'),
+                                    'rag_enabled':bool(os.environ.get('TUTOR_RAG_URL'))})
             else:
                 self.send_json(404, envelope('', error={'code': 'not_found', 'message': 'Unknown endpoint.'}))
 

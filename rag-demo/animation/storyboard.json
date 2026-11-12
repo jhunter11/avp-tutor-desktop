@@ -1,0 +1,74 @@
+[
+  {
+    "id": "question",
+    "seconds": 10,
+    "title": "Ask an AVP question",
+    "narration": "A student asks how to visit every element of an AVP array. This example uses a saved run of the real local retriever. The reply quotes sources; no answer model runs.",
+    "direction": "Keep a flat 2D pipeline. Move the request marker left to right with eased motion; hold the full question for reading.",
+    "dimensions": 2
+  },
+  {
+    "id": "corpus",
+    "seconds": 12,
+    "title": "Store passages with their sources",
+    "narration": "The index contains {indexed_chunks} vectors. Only {answer_passages} passages can enter a student reply. Manual AVP chunks keep code blocks intact, with stable source IDs. Full programs and configuration answers stay outside retrieval.",
+    "direction": "Reveal source cards, then split the corpus into eligible and excluded records. Lift the actual for-loop source ID from the saved result.",
+    "dimensions": 2
+  },
+  {
+    "id": "embed",
+    "seconds": 12,
+    "title": "Encode text as numbers",
+    "narration": "MiniLM converts the question to 384 numbers. Source passages use the same encoder and preprocessing recipe for their stored vectors. These unit vectors describe similarity; their components do not name concepts.",
+    "direction": "Keep the encoder and 384-cell heatmap in 2D. Do not tilt the text or suggest that the grid is a map of topics.",
+    "dimensions": 2
+  },
+  {
+    "id": "geometry",
+    "title": "An exact three-vector view",
+    "narration": "These three selected vectors span at most three dimensions. An orthonormal change of coordinates preserves their lengths and pairwise angles. The camera moves around that real three-dimensional span, then stops. Search still uses all 384 dimensions.",
+    "direction": "Use 3D axes and genuine perspective for the exact selected span. Orbit 18 degrees over eight seconds, then hold. Keep the legend fixed to the screen and vector labels facing the camera. Ease the orbit to zero speed at both ends; cap angular speed at 4.5 degrees per second.",
+    "seconds": 20,
+    "dimensions": 3
+  },
+  {
+    "id": "rank",
+    "seconds": 16,
+    "title": "Compare all eligible vectors",
+    "narration": "For each passage, search multiplies matching vector components and adds all 384 products. That gives cosine similarity for unit vectors. The real ranking places the for-loop passage at position {source_rank}.",
+    "direction": "Use flat horizontal cosine bars and a signed component-product graph. Keep the camera still so viewers can compare values and cutoffs.",
+    "dimensions": 2
+  },
+  {
+    "id": "read",
+    "seconds": 18,
+    "title": "Read the original AVP passage",
+    "narration": "Retrieval returns the original text attached to the vector. The quoted AVP loop visits zero through length minus one and closes with end for. The interpreter checked this snippet; that does not review all teaching prose.",
+    "direction": "Use Menlo for exact AVP code with explicit indentation and panel padding. Ease into a 2D close-up over 1.6 seconds, stop for reading, then return to the full view.",
+    "dimensions": 2
+  },
+  {
+    "id": "api",
+    "seconds": 18,
+    "title": "Keep one frontend API",
+    "narration": "The old frontend keeps one tutor request with the question and student context, and receives one text answer. The backend sends only the question to this RAG lookup. Code blocks display as examples; they do not change the student's editor.",
+    "direction": "Keep the diagram in 2D. Follow the request to the right and the response to the left, using 1.6-second planar camera pans. Do not orbit the diagram. Route returned source passages into the backend before showing its text reply to the frontend.",
+    "dimensions": 2
+  },
+  {
+    "id": "limit",
+    "seconds": 14,
+    "title": "Similarity does not check support",
+    "narration": "Ask for while-loop syntax. The current corpus lacks that passage, but similarity still returns for-loop text. This is a recorded limitation. We need coverage checks and answer relevance evaluation before treating every retrieval as useful help.",
+    "direction": "Keep the unsupported question and source-score graph flat. Use orange for retrieval and red for the unsupported topic. Hold the camera still.",
+    "dimensions": 2
+  },
+  {
+    "id": "next",
+    "seconds": 14,
+    "title": "Review, measure, then expand",
+    "narration": "The new challenge set found expected sources for {supported_source_retrieved} of {supported_questions} supported questions, but only {supported_answer_coverage} entered replies. {unsupported_abstentions} of {unsupported_questions} unsupported questions received no quote. Keep these failures, review new sources, and test live generation separately.",
+    "direction": "Show the measured counts from the saved challenge report, followed by the next work items. End on the local demo URL and the offline status. Do not claim held-out testing or student-learning results.",
+    "dimensions": 2
+  }
+]

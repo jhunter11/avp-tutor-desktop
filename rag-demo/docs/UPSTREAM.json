@@ -1,0 +1,35 @@
+{
+  "repository": "team-frontend-2026",
+  "revision": "50e1b608983a98837e9f2af163cafeadbe85526c",
+  "files": {
+    "vendor/avp/TraceType.ts": "ba6abff8bd6f495ac40d42dd29a056d9401dbf2cac2509a6e110ec5e075c05dc",
+    "vendor/avp/TraceInterpreterVisitor.ts": "37fb3ddb78cc4edab173e04b2bd90eebc3ba96963a444d4fb142867eb3d33652",
+    "vendor/avp/Pseudocode.g4": "0dd53947334a3496b417c6dd9c4c44e3b835cb2251d3c7029ed1587046584c9d",
+    "vendor/avp/.antlr/PseudocodeVisitor.ts": "8554625b458bffa7d3a3e0ce2cf9b9dbb750d0adbe0a5320555afac7a02e0eed",
+    "vendor/avp/.antlr/PseudocodeLexer.tokens": "218124f0b70c43bf14567bcac796e80eed2567be0f41e405fd9d6608bdb81841",
+    "vendor/avp/.antlr/Pseudocode.tokens": "218124f0b70c43bf14567bcac796e80eed2567be0f41e405fd9d6608bdb81841",
+    "vendor/avp/.antlr/PseudocodeListener.ts": "770f028ae474543dd97d43b8c06f197d2616a019c28e31cdf96156be87accf8b",
+    "vendor/avp/.antlr/PseudocodeParser.ts": "af38687120728e124ef6c1395b88a393ca601ab91f26fc457468f5363d6a693d",
+    "vendor/avp/.antlr/PseudocodeLexer.interp": "e4f49149dd24e663c148a6ab7152167aef4db9c7918fde7b3b1fcab1b7efb72c",
+    "vendor/avp/.antlr/PseudocodeLexer.ts": "22710ba9f4e2413350bb76fae59f172a6fd11cc493f0fdd79e4cba90b5f5ba11",
+    "vendor/avp/.antlr/Pseudocode.interp": "85ecc67e4af752f5ef1a3178b539fb93f538bf1444030a7ee650f953f8c46260"
+  },
+  "catalog": [
+    "binary_search",
+    "bubble_sort",
+    "check_unique",
+    "comparison_counting_sort",
+    "hoare_partition",
+    "insertion_sort",
+    "linear_search",
+    "lomuto_partition",
+    "selection_sort"
+  ],
+  "local_patches": [
+    {
+      "file": "vendor/avp/TraceInterpreterVisitor.ts",
+      "reason": "Throw when the inherited 1,000-iteration cap is reached, instead of silently treating a capped loop as complete.",
+      "sha256": "9955d95029edb98579871737bdc99828a20d2d945b9d6cf3fcc0a92bed10e976"
+    }
+  ]
+}

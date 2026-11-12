@@ -1,0 +1,15 @@
+// Lomuto Partition
+
+fun Lomuto_Partition(@init<table> a, low, high):
+    pivot = a[high]
+    i = low - 1
+    for (j = low; j < high; j += 1):
+        if (a[j] < pivot):
+            i += 1
+            swap(a[i], a[j])
+        end if
+    end for
+    swap(a[i + 1], a[high])
+    return i + 1
+end fun
+

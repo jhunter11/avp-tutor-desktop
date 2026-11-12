@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.generated/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+api-key*
+artifacts/
+.venv/
+.venv-manim/
+# Keep the small final presentation media in the desktop source copy.
+/media/
+.DS_Store
+!vendor/avp/.antlr/

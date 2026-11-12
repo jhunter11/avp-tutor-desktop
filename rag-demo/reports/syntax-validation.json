@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-11-12T18:54:30.134Z",
+  "source_path": "sources/avp-syntax.json",
+  "source_sha256": "a61b1acb0732d0abe0b3f7c5f33241afb17b24adc09184fde09dbbacf00ebea9",
+  "grammar_sha256": "0dd53947334a3496b417c6dd9c4c44e3b835cb2251d3c7029ed1587046584c9d",
+  "scope": "Four small syntax snippets executed against the pinned AVP interpreter; not prose review or a full language conformance test.",
+  "passed": 4,
+  "total": 4,
+  "invalid_snippets_rejected": 4,
+  "results": [
+    {
+      "id": "avp-syntax.for-loop",
+      "passed": true,
+      "expected_result": 20,
+      "actual_result": 20,
+      "code_sha256": "5371f36c90b25a28773d5f57bb07ab8839142c897e4c98e3c2dc145511e64b99"
+    },
+    {
+      "id": "avp-syntax.function-return",
+      "passed": true,
+      "expected_result": 10,
+      "actual_result": 10,
+      "code_sha256": "a3193edd9e0951da592704f562c816733760eaba0f0035c27c6c1c680083e14e"
+    },
+    {
+      "id": "avp-syntax.array-access",
+      "passed": true,
+      "expected_result": 4,
+      "actual_result": 4,
+      "code_sha256": "12080713ad7b4dfe2d0bec1c0baf03e1d271a4e7bfe6fb3b7058f4d354fd0afa"
+    },
+    {
+      "id": "avp-syntax.assignment-comparison",
+      "passed": true,
+      "expected_result": 1,
+      "actual_result": 1,
+      "code_sha256": "f74b67019d66220e328cc8652239325a216205e42787a3052b131d5f7a92c8a2"
+    }
+  ]
+}

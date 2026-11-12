@@ -1,0 +1,141 @@
+[
+  {
+    "algorithm": "linear_search",
+    "configuration": {
+      "id": "practice",
+      "input": [
+        4,
+        9,
+        7
+      ],
+      "target": 7
+    },
+    "program": "// Linear Search\n\nfun Linear_Search(@init<table> a, key):\n    n = length(a)\n    for (i = 0; i < n - 1; i += 1):\n        if (a[i] == key):\n            return i\n        end if\n    end for\n    return -1\nend fun\n\n",
+    "misconception": "The last position is never visited.",
+    "status": "intentionally-incorrect; excluded from RAG references"
+  },
+  {
+    "algorithm": "binary_search",
+    "configuration": {
+      "id": "practice",
+      "input": [
+        1,
+        4,
+        7,
+        9
+      ],
+      "target": 9
+    },
+    "program": "// Binary Search\n\nfun Binary_Search(@init<table> a, key):\n    low = 0\n    high = length(a) - 1\n    while (low <= high):\n        mid = floor((low + high) / 2)\n        if (a[mid] == key):\n            return mid\n        else if (a[mid] < key):\n            low = mid\n        else:\n            high = mid - 1\n        end if\n    end while\n    return -1\nend fun\n\n",
+    "misconception": "One bound update can leave the candidate interval unchanged.",
+    "status": "intentionally-incorrect; excluded from RAG references"
+  },
+  {
+    "algorithm": "bubble_sort",
+    "configuration": {
+      "id": "practice",
+      "input": [
+        4,
+        1,
+        7,
+        2
+      ]
+    },
+    "program": "// Bubble Sort\n\nfun Bubble_Sort(@init<table> a):\n    n = length(a)\n    for (i = 0; i < n - 1; i += 1):\n        changed = 0\n        for (j = 0; j < n - i - 1; j += 1):\n            if (a[j] < a[j + 1]):\n                swap(a[j], a[j + 1])\n                changed = 1\n            end if\n        end for\n        if (changed == 0):\n            break\n        end if\n    end for\n    return a\nend fun\n\n",
+    "misconception": "The comparison moves values in the wrong direction.",
+    "status": "intentionally-incorrect; excluded from RAG references"
+  },
+  {
+    "algorithm": "insertion_sort",
+    "configuration": {
+      "id": "practice",
+      "input": [
+        4,
+        1,
+        7,
+        2
+      ]
+    },
+    "program": "// Insertion Sort\n\nfun Insertion_Sort(@init<table> a):\n    for (i = 1; i < length(a); i += 1):\n        key = a[i]\n        j = i - 1\n        while (j >= 0 and a[j] < key):\n            a[j + 1] = a[j]\n            j -= 1\n        end while\n        a[j + 1] = key\n    end for\n    return a\nend fun\n\n",
+    "misconception": "The shift condition builds the wrong order.",
+    "status": "intentionally-incorrect; excluded from RAG references"
+  },
+  {
+    "algorithm": "selection_sort",
+    "configuration": {
+      "id": "practice",
+      "input": [
+        4,
+        1,
+        7,
+        2
+      ]
+    },
+    "program": "// Selection Sort\n\nfun Selection_Sort(@init<table> a):\n    n = length(a)\n    for (i = 0; i < n - 1; i += 1):\n        minimum = i\n        for (j = i + 1; j < n; j += 1):\n            if (a[j] > a[minimum]):\n                minimum = j\n            end if\n        end for\n        swap(a[i], a[minimum])\n    end for\n    return a\nend fun\n\n",
+    "misconception": "The suffix scan selects the wrong extreme.",
+    "status": "intentionally-incorrect; excluded from RAG references"
+  },
+  {
+    "algorithm": "comparison_counting_sort",
+    "configuration": {
+      "id": "practice",
+      "input": [
+        4,
+        1,
+        7,
+        2
+      ]
+    },
+    "program": "// Comparison Counting Sort\n\nfun Comparison_Counting_Sort(@init<table> a):\n    n = length(a)\n    count = arr(n)\n    output = arr(n)\n    for (i = 0; i < n - 1; i += 1):\n        for (j = i + 1; j < n; j += 1):\n            if (a[i] <= a[j]):\n                count[j] += 1\n            else:\n                count[i] += 1\n            end if\n        end for\n    end for\n    for (i = 0; i < n; i += 1):\n        a[count[i]] = a[i]\n    end for\n    return a\nend fun\n\n",
+    "misconception": "Source values are overwritten before later placements.",
+    "status": "intentionally-incorrect; excluded from RAG references"
+  },
+  {
+    "algorithm": "check_unique",
+    "configuration": {
+      "id": "practice",
+      "input": [
+        4,
+        1,
+        4
+      ]
+    },
+    "program": "// Check Unique\n\nfun Check_Unique(@init<table> a):\n    n = length(a)\n    for (i = 0; i < n - 1; i += 1):\n        for (j = i + 1; j < n; j += 1):\n            if (a[i] == a[j]):\n                return 1\n            end if\n        end for\n    end for\n    return 1\nend fun\n\n",
+    "misconception": "The duplicate path returns the wrong result.",
+    "status": "intentionally-incorrect; excluded from RAG references"
+  },
+  {
+    "algorithm": "lomuto_partition",
+    "configuration": {
+      "id": "practice",
+      "input": [
+        4,
+        1,
+        7,
+        2
+      ],
+      "low": 0,
+      "high": 3
+    },
+    "program": "// Lomuto Partition\n\nfun Lomuto_Partition(@init<table> a, low, high):\n    pivot = a[high]\n    i = low - 1\n    for (j = low; j < high; j += 1):\n        if (a[j] < pivot):\n            i += 1\n            swap(a[i], a[j])\n        end if\n    end for\n    // final pivot swap omitted\n    return i + 1\nend fun\n\n",
+    "misconception": "The pivot never reaches the returned position.",
+    "status": "intentionally-incorrect; excluded from RAG references"
+  },
+  {
+    "algorithm": "hoare_partition",
+    "configuration": {
+      "id": "practice",
+      "input": [
+        4,
+        1,
+        7,
+        2
+      ],
+      "low": 0,
+      "high": 3
+    },
+    "program": "// Hoare Partition\n\nfun Hoare_Partition(@init<table> a, low, high):\n    pivot = a[low]\n    i = low - 1\n    j = high + 1\n    while (true):\n        i += 1\n        while (a[i] < pivot):\n            i += 1\n        end while\n        j -= 1\n        while (a[j] > pivot):\n            j -= 1\n        end while\n        if (i <= j):\n            return j\n        end if\n        swap(a[i], a[j])\n    end while\nend fun\n\n",
+    "misconception": "The crossing check returns before the partition is complete.",
+    "status": "intentionally-incorrect; excluded from RAG references"
+  }
+]

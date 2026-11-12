@@ -1,0 +1,99 @@
+{
+  "recorded_at": "2026-11-12T13:46:43.730241-05:00",
+  "status": "tested_local_uncommitted",
+  "mode": "offline_source_extract",
+  "publication": "No new commit, push, issue, MR, merge or deployment in this work. Existing MR !21 does not include these local changes.",
+  "corpus": {
+    "vector_records": 131,
+    "answer_eligible_passages": 42,
+    "dimensions": 384,
+    "algorithms": 9
+  },
+  "checks": {
+    "standalone_python_tests_passed": 49,
+    "old_frontend_backend_tests_passed": 18,
+    "old_frontend_node_tests_passed": 5,
+    "reference_execution_cases_passed": 440,
+    "engine_guards_passed": 5,
+    "faulty_practice_programs_detected": 9,
+    "syntax_snippets_passed": 4,
+    "invalid_syntax_rejected": 4,
+    "expected_source_top3": {
+      "passed": 13,
+      "total": 13
+    },
+    "expected_source_in_answer_quotes": {
+      "passed": 13,
+      "total": 13
+    },
+    "unsupported_answer_abstentions": {
+      "passed": 5,
+      "total": 5
+    },
+    "real_old_frontend_proxy_requests_http200": 2,
+    "production_builds": "Standalone and old frontend passed; standalone rebuilt after two-pane layout change."
+  },
+  "visual_check": {
+    "screenshot": "../artifacts/rag-two-pane.png",
+    "layout": "Chat left, selectable inspector right; chat retained across selection.",
+    "inspector_views_observed": [
+      "Sources",
+      "Vector",
+      "Corpus"
+    ],
+    "discussion_view": "Implemented; not directly selected during final visual check.",
+    "old_frontend_browser_render": "Not verified in this check; real HTTP proxy path verified."
+  },
+  "evidence_files": [
+    "verify.log",
+    "build-final.log",
+    "old-frontend-tests.log",
+    "old-frontend-build.log",
+    "old-frontend-http.json",
+    "rag-evaluation.json",
+    "validation.json",
+    "syntax-validation.json"
+  ],
+  "limitations": [
+    "Offline source quotes, not live answer-model generation.",
+    "Authored smoke questions were seen during development; not a held-out or human-learning evaluation.",
+    "Similarity cutoffs are demo settings; some valid paraphrases can be declined.",
+    "Human review of prose remains pending.",
+    "Standalone chat history is display-only; retrieval uses each question independently."
+  ],
+  "source_sha256": {
+    "walkthrough-demo/index.html": "2058a686b0d7d30be04b6bf971cd8162dffbe57e0905087e21e2311df54a4586",
+    "walkthrough-demo/src/rag.ts": "5fbe5d65f3181df28142fe35df38aa5dd2a6b7792efdae2fd478440d278c7910",
+    "walkthrough-demo/src/rag.css": "507e35ae212580a362b813b6ba55c1b719fc4726301a19d9bdc4d590553818b9",
+    "walkthrough-demo/backend/ingestion.py": "732e70c63fb99b2aedc79946183970c9a0e611f55f739d245e6fa06b2c5483cb",
+    "walkthrough-demo/backend/vector_rag.py": "86e28ec232f9f6cc167d749d924eb8ad17170ca38e73ef534bcee664eca46fcf",
+    "walkthrough-demo/sources/manifest.json": "606beaf263627e731d417d763e65cd0f82950b8df8415bd9fb033d49ba2bae88",
+    "walkthrough-demo/sources/avp-syntax.json": "a61b1acb0732d0abe0b3f7c5f33241afb17b24adc09184fde09dbbacf00ebea9",
+    "walkthrough-demo/data/rag-config.json": "4c1d892923b7befb41f376d9a21d1431aa6bd656eb1910c18c034a2b5f5feed7",
+    "team-frontend-2026/README.md": "158113a837204394c7838fd646c87ea5dd9ec839bb8ff79c2ca98f034c17297f",
+    "team-frontend-2026/app/components/panes/AIPane.tsx": "27bfe2d3a86c62e527d960b706386e8eef5496dd8a1beef5112e7be045716207",
+    "team-frontend-2026/app/tutor/tutor.css": "140687bdc6049d8f63686dbd09ca12e5616eaf83ce60f7f89a2ec903bd30847c",
+    "team-frontend-2026/backend/server.py": "8d7f48fd24eb75a78ce59e68c8487dc9b269e7a8a3cc06f51e4a00406d219887",
+    "team-frontend-2026/backend/tutor.py": "3744f9b6f0345f62d96e79b7300690e2018111d8ee1d85ae013d38d02e915bb6",
+    "team-frontend-2026/app/tutor/AnswerText.tsx": "83822c4dd53d1a67d164629b5bb2fc7a68966ddeba5450043fe4cda9010a3934",
+    "team-frontend-2026/backend/grounding.py": "fb73c3e2ed63cf3b477d5590d49e94319bf8896bb51ebda64aac614eaf02939f",
+    "team-frontend-2026/backend/test_grounding.py": "90bf134531254281f2ef2b3fc21a3da3130a7f0c2337b378c6c42286a2739b2e",
+    "team-frontend-2026/docs/tutor/RAG_DEMO.md": "a3954a0432359172d0b2836226113e150c5b7de51ac83ca9e73bdf8cc9217961",
+    "team-frontend-2026/tests/tutor-answer.node.test.tsx": "bd54238e824a916776b671d07310b6a799551f59023aa79d57f44f42d7e14cbd"
+  },
+  "frontend_branch": "codex/tutor-suggestions-api",
+  "frontend_head": "50e1b608983a98837e9f2af163cafeadbe85526c",
+  "frontend_local_changes": [
+    " M README.md",
+    " M app/components/panes/AIPane.tsx",
+    " M app/tutor/tutor.css",
+    " M backend/server.py",
+    " M backend/tutor.py",
+    "?? app/tutor/AnswerText.tsx",
+    "?? backend/grounding.py",
+    "?? backend/test_grounding.py",
+    "?? docs/tutor/RAG_DEMO.md",
+    "?? tests/tutor-answer.node.test.tsx"
+  ],
+  "next_action": "Review corpus prose and add independently authored retrieval questions; verify live generation separately when authorized and available."
+}

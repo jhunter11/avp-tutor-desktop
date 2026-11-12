@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-12T19:56:26.579351+00:00",
+  "scope": "Public desktop transfer of standalone RAG demo, saved Manim video and optional old-frontend RAG bridge.",
+  "checks": {
+    "fresh_python_3_11_environment_setup": "passed; pinned MiniLM revision loaded from available cache",
+    "rag_python_tests": 64,
+    "vector_node_tests": 2,
+    "old_frontend_backend_tests": 18,
+    "old_frontend_node_tests": 5,
+    "standalone_production_build": "passed",
+    "old_frontend_production_build": "passed",
+    "packaged_page_video_and_real_query_http": "passed; see desktop-http.json",
+    "selected_source_credential_scan": "passed; see desktop-publication-scan.json",
+    "diff_whitespace_check": "passed with hash-validated vendor/example whitespace preserved"
+  },
+  "presentation": {
+    "duration_seconds": 134,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "captioned": true,
+    "page_theme": "existing mint UI retained",
+    "video_theme": "dark mathematical Manim style retained"
+  },
+  "limitations": [
+    "Windows launch commands provided but not executed on Windows hardware.",
+    "Embedding weights and Python packages require one-time internet setup; no API key.",
+    "Offline source extraction only; live generative RAG and student learning unverified.",
+    "Developer-authored diagnostics remain 15/15 expected-source retrieval, 12/15 answer coverage, 5/9 unsupported abstentions.",
+    "GitHub transfer snapshot is separate from GitLab review, merge and deployment."
+  ],
+  "next_action": "Download the release ZIP on the desktop, extract, run setup before the call, then start and open localhost:5192."
+}

@@ -1,0 +1,80 @@
+{
+  "chapter": "question",
+  "dimensions": 2,
+  "seconds": 10,
+  "reading_hold_seconds": 3.6,
+  "camera_moves": [],
+  "text": [
+    {
+      "text": "Ask an AVP question",
+      "font": "STIX Two Text",
+      "declared_size": 36,
+      "width": 4.4494,
+      "height": 0.4629
+    },
+    {
+      "text": "AVP RAG  /  01 OF 09",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.8158,
+      "height": 0.2273
+    },
+    {
+      "text": "OFFLINE EXTRACT",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.645,
+      "height": 0.2273
+    },
+    {
+      "text": "The student asks",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 3.1353,
+      "height": 0.3201
+    },
+    {
+      "text": "How do I write an AVP for loop that visits every array element?",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 10.0931,
+      "height": 0.3641
+    },
+    {
+      "text": "Question",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.6905,
+      "height": 0.3076
+    },
+    {
+      "text": "Embed",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.3063,
+      "height": 0.3201
+    },
+    {
+      "text": "Search",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.2303,
+      "height": 0.3225
+    },
+    {
+      "text": "Quote",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.1718,
+      "height": 0.3076
+    },
+    {
+      "text": "A saved run of the real retriever. Every reply quotes source text; no answer model runs.",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 14.1697,
+      "height": 0.3641
+    }
+  ],
+  "safe_frame_check": "passed"
+}

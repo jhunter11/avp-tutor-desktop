@@ -1,0 +1,28 @@
+{
+  "coordinates": [
+    [
+      1.0000000088718377,
+      -5.44811591673966e-18,
+      9.703609443745265e-18
+    ],
+    [
+      0.6745366870321691,
+      0.7382413995710525,
+      2.3744027577432547e-17
+    ],
+    [
+      0.6790207964696952,
+      0.45500335077194387,
+      0.5761100247226333
+    ]
+  ],
+  "rank": 3,
+  "maximum_dot_product_error": 2.886579864025407e-15,
+  "scope": "Exact span of these selected vectors only. Full corpus search still uses 384 dimensions.",
+  "source_ids": [
+    "question",
+    "avp-syntax.for-loop",
+    "avp-syntax.array-access"
+  ],
+  "angle_degrees": 47.58181791475078
+}

@@ -1,0 +1,14 @@
+{
+  "passages": [
+    {
+      "id": "binary-search-order",
+      "locator": "Binary search: why ordering matters",
+      "text": "Binary search needs an ascending sorted array because each midpoint comparison must justify discarding one side. If the target is smaller than the midpoint value, every value to its right is at least that midpoint value, so the target cannot be there. The opposite comparison discards the left side. On unsorted input, those exclusions are invalid and the search can miss a value that is present."
+    },
+    {
+      "id": "insertion-saved-key",
+      "locator": "Insertion sort: preserve the value being inserted",
+      "text": "Insertion sort saves a[i] in a temporary key before shifting larger elements of the sorted prefix one position to the right. A shift can overwrite the original a[i] location. The saved key preserves the value being inserted until it can be placed at j + 1. Without that saved value, the algorithm can duplicate a shifted element and lose the original insertion value."
+    }
+  ]
+}

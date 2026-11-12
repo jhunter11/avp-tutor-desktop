@@ -1,0 +1,154 @@
+{
+  "chapter": "read",
+  "dimensions": 2,
+  "seconds": 18,
+  "reading_hold_seconds": 5.0,
+  "camera_moves": [
+    {
+      "type": "2D pan/zoom",
+      "from": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        -1.35,
+        0.25,
+        0.0
+      ],
+      "width_from": 16.0,
+      "width_to": 13.3,
+      "seconds": 1.6,
+      "units_per_second": 0.8580956386091239,
+      "peak_units_per_second": 1.7161912772182477,
+      "rotation_degrees": 0
+    },
+    {
+      "type": "2D pan/zoom",
+      "from": [
+        -1.3499999999999996,
+        0.25,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "width_from": 13.3,
+      "width_to": 16,
+      "seconds": 1.6,
+      "units_per_second": 0.8580956386091235,
+      "peak_units_per_second": 1.716191277218247,
+      "rotation_degrees": 0
+    }
+  ],
+  "text": [
+    {
+      "text": "Read the original AVP passage",
+      "font": "STIX Two Text",
+      "declared_size": 36,
+      "width": 6.3717,
+      "height": 0.4705
+    },
+    {
+      "text": "AVP RAG  /  06 OF 09",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.8158,
+      "height": 0.2273
+    },
+    {
+      "text": "OFFLINE EXTRACT",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.645,
+      "height": 0.2273
+    },
+    {
+      "text": "[avp-syntax.for-loop]",
+      "font": "Avenir Next",
+      "declared_size": 24,
+      "width": 3.0801,
+      "height": 0.3361
+    },
+    {
+      "text": "a = arr[4, 9, 7]",
+      "font": "Menlo",
+      "declared_size": 28,
+      "width": 3.6235,
+      "height": 0.3783
+    },
+    {
+      "text": "total = 0",
+      "font": "Menlo",
+      "declared_size": 28,
+      "width": 2.057,
+      "height": 0.3021
+    },
+    {
+      "text": "for (i = 0; i < length(a); i += 1):",
+      "font": "Menlo",
+      "declared_size": 28,
+      "width": 8.2252,
+      "height": 0.4056
+    },
+    {
+      "text": "total += a[i]",
+      "font": "Menlo",
+      "declared_size": 28,
+      "width": 2.9215,
+      "height": 0.3467
+    },
+    {
+      "text": "end for",
+      "font": "Menlo",
+      "declared_size": 28,
+      "width": 1.6007,
+      "height": 0.301
+    },
+    {
+      "text": "result = total",
+      "font": "Menlo",
+      "declared_size": 28,
+      "width": 3.1865,
+      "height": 0.3021
+    },
+    {
+      "text": "Result 20",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.6712,
+      "height": 0.3225
+    },
+    {
+      "text": "Checked in AVP",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 2.5854,
+      "height": 0.2795
+    },
+    {
+      "text": "Rank 2",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.1965,
+      "height": 0.3201
+    },
+    {
+      "text": "Other quotes",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 2.1636,
+      "height": 0.3598
+    },
+    {
+      "text": "Read the original passage attached to the vector. The editor remains under student control.",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 13.5814,
+      "height": 0.792
+    }
+  ],
+  "safe_frame_check": "passed"
+}

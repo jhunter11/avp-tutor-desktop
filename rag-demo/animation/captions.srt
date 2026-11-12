@@ -1,0 +1,119 @@
+1
+00:00:00,000 --> 00:00:03,871
+A student asks how to visit every element of an AVP array.
+
+2
+00:00:03,871 --> 00:00:07,419
+This example uses a saved run of the real local retriever.
+
+3
+00:00:07,419 --> 00:00:10,000
+The reply quotes sources; no answer model runs.
+
+4
+00:00:10,000 --> 00:00:11,875
+The index contains 131 vectors.
+
+5
+00:00:11,875 --> 00:00:14,875
+Only 42 passages can enter a student reply.
+
+6
+00:00:14,875 --> 00:00:19,000
+Manual AVP chunks keep code blocks intact, with stable source IDs.
+
+7
+00:00:19,000 --> 00:00:22,000
+Full programs and configuration answers stay outside retrieval.
+
+8
+00:00:22,000 --> 00:00:24,710
+MiniLM converts the question to 384 numbers.
+
+9
+00:00:24,710 --> 00:00:29,742
+Source passages use the same encoder and preprocessing recipe for their stored vectors.
+
+10
+00:00:29,742 --> 00:00:34,000
+These unit vectors describe similarity; their components do not name concepts.
+
+11
+00:00:34,000 --> 00:00:39,000
+These three selected vectors span at most three dimensions.
+
+12
+00:00:39,000 --> 00:00:45,111
+An orthonormal change of coordinates preserves their lengths and pairwise angles.
+
+13
+00:00:45,111 --> 00:00:50,667
+The camera moves around that real three-dimensional span, then stops.
+
+14
+00:00:50,667 --> 00:00:54,000
+Search still uses all 384 dimensions.
+
+15
+00:00:54,000 --> 00:01:00,933
+For each passage, search multiplies matching vector components and adds all 384 products.
+
+16
+00:01:00,933 --> 00:01:04,667
+That gives cosine similarity for unit vectors.
+
+17
+00:01:04,667 --> 00:01:10,000
+The real ranking places the for-loop passage at position 2.
+
+18
+00:01:10,000 --> 00:01:14,500
+Retrieval returns the original text attached to the vector.
+
+19
+00:01:14,500 --> 00:01:22,000
+The quoted AVP loop visits zero through length minus one and closes with end for.
+
+20
+00:01:22,000 --> 00:01:28,000
+The interpreter checked this snippet; that does not review all teaching prose.
+
+21
+00:01:28,000 --> 00:01:36,100
+The old frontend keeps one tutor request with the question and student context, and receives one text answer.
+
+22
+00:01:36,100 --> 00:01:40,600
+The backend sends only the question to this RAG lookup.
+
+23
+00:01:40,600 --> 00:01:46,000
+Code blocks display as examples; they do not change the student's editor.
+
+24
+00:01:46,000 --> 00:01:47,556
+Ask for while-loop syntax.
+
+25
+00:01:47,556 --> 00:01:52,222
+The current corpus lacks that passage, but similarity still returns for-loop text.
+
+26
+00:01:52,222 --> 00:01:54,167
+This is a recorded limitation.
+
+27
+00:01:54,167 --> 00:02:00,000
+We need coverage checks and answer relevance evaluation before treating every retrieval as useful help.
+
+28
+00:02:00,000 --> 00:02:06,811
+The new challenge set found expected sources for 15 of 15 supported questions, but only 12 entered replies.
+
+29
+00:02:06,811 --> 00:02:09,838
+5 of 9 unsupported questions received no quote.
+
+30
+00:02:09,838 --> 00:02:14,000
+Keep these failures, review new sources, and test live generation separately.

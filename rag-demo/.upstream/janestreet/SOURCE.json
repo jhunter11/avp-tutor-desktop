@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/janestreet/agent_skills",
+  "revision": "7c6715c29548a3b39d4a9545c698ee4fd17a7213",
+  "role": "Teaching design reference; not installed globally or promoted into team tutor.",
+  "files": {
+    "LICENSE.md": "92cd3e89e1331afd684eef3d4e98c3e53259f572cc57667b63da223f61ecbc84",
+    "SKILL.md": "9190b68440ad99be4d865c63b87939f23a362efac0776c5a67c93d1498bb5e37"
+  }
+}

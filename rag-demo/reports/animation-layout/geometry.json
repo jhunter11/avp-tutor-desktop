@@ -1,0 +1,113 @@
+{
+  "chapter": "geometry",
+  "dimensions": 3,
+  "seconds": 20,
+  "reading_hold_seconds": 4.6,
+  "camera_moves": [
+    {
+      "type": "3D orbit",
+      "phi_degrees": 64,
+      "theta_from": -58,
+      "theta_to": -40,
+      "seconds": 8.0,
+      "degrees_per_second": 2.25,
+      "peak_degrees_per_second": 4.5,
+      "gamma_degrees": 0,
+      "zoom": 0.9
+    }
+  ],
+  "text": [
+    {
+      "text": "An exact three-vector view",
+      "font": "STIX Two Text",
+      "declared_size": 36,
+      "width": 5.6258,
+      "height": 0.358
+    },
+    {
+      "text": "AVP RAG  /  04 OF 09",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.8158,
+      "height": 0.2273
+    },
+    {
+      "text": "OFFLINE EXTRACT",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.645,
+      "height": 0.2273
+    },
+    {
+      "text": "q",
+      "font": "Avenir Next",
+      "declared_size": 27,
+      "width": 0.1832,
+      "height": 0.2701
+    },
+    {
+      "text": "loop",
+      "font": "Avenir Next",
+      "declared_size": 27,
+      "width": 0.7353,
+      "height": 0.3736
+    },
+    {
+      "text": "array",
+      "font": "Avenir Next",
+      "declared_size": 27,
+      "width": 0.8223,
+      "height": 0.2701
+    },
+    {
+      "text": "Exact span of 3 vectors",
+      "font": "Avenir Next",
+      "declared_size": 28,
+      "width": 3.9991,
+      "height": 0.392
+    },
+    {
+      "text": "q: question",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 1.8178,
+      "height": 0.3381
+    },
+    {
+      "text": "loop: AVP for loop",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 2.9763,
+      "height": 0.3641
+    },
+    {
+      "text": "array: AVP array",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 2.5684,
+      "height": 0.3424
+    },
+    {
+      "text": "Angle q, loop: 47.6\u00b0",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 3.2864,
+      "height": 0.3598
+    },
+    {
+      "text": "cos(angle) = 0.674537",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 3.6381,
+      "height": 0.3598
+    },
+    {
+      "text": "The 3D coordinates preserve selected angles. Full corpus search still uses all 384 dimensions.",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 13.1876,
+      "height": 0.792
+    }
+  ],
+  "safe_frame_check": "HUD fixed in frame; spatial view inspected in rendered frames"
+}

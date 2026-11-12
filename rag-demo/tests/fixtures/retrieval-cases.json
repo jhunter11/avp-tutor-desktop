@@ -1,0 +1,105 @@
+[
+  {
+    "question": "If a linear search never finds its target, what should it return?",
+    "expected_sources": [
+      "linear_search.note.1"
+    ]
+  },
+  {
+    "question": "Why must binary search use sorted input?",
+    "expected_sources": [
+      "binary_search.note.1"
+    ]
+  },
+  {
+    "question": "Which values does bubble sort compare and swap?",
+    "expected_sources": [
+      "bubble_sort.note.1"
+    ]
+  },
+  {
+    "question": "What value should insertion sort save before shifting?",
+    "expected_sources": [
+      "insertion_sort.note.2"
+    ]
+  },
+  {
+    "question": "Does selection sort minimum store an index or a value?",
+    "expected_sources": [
+      "selection_sort.note.2"
+    ]
+  },
+  {
+    "question": "How does comparison counting sort give equal values different ranks?",
+    "expected_sources": [
+      "comparison_counting_sort.note.2"
+    ]
+  },
+  {
+    "question": "When should Check Unique return that every element is different?",
+    "expected_sources": [
+      "check_unique.note.3"
+    ]
+  },
+  {
+    "question": "Which element is the pivot in Lomuto partition?",
+    "expected_sources": [
+      "lomuto_partition.note.1"
+    ]
+  },
+  {
+    "question": "When does Hoare partition return its split?",
+    "expected_sources": [
+      "hoare_partition.note.3"
+    ]
+  },
+  {
+    "question": "How do I bake sourdough bread?",
+    "expected_sources": []
+  },
+  {
+    "question": "Who won the World Cup in 1998?",
+    "expected_sources": []
+  },
+  {
+    "title": "For-loop syntax",
+    "question": "How do I write an AVP for loop that visits every array element?",
+    "expected_sources": [
+      "avp-syntax.for-loop"
+    ]
+  },
+  {
+    "title": "Function and return",
+    "question": "How do I define a function and return a value in AVP?",
+    "expected_sources": [
+      "avp-syntax.function-return"
+    ]
+  },
+  {
+    "title": "Arrays and indexes",
+    "question": "How do I create an AVP array and read its first element?",
+    "expected_sources": [
+      "avp-syntax.array-access"
+    ]
+  },
+  {
+    "title": "Assignment versus comparison",
+    "question": "What is the difference between = and == in AVP, and how do I write an if statement?",
+    "expected_sources": [
+      "avp-syntax.assignment-comparison"
+    ]
+  },
+  {
+    "title": "Outside the corpus",
+    "question": "How do I bake sourdough bread?",
+    "expected_sources": []
+  },
+  {
+    "question": "How does merge sort combine the two halves?",
+    "expected_sources": []
+  },
+  {
+    "question": "How does Dijkstra choose the next vertex?",
+    "expected_sources": []
+  }
+]

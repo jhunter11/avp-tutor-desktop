@@ -1,0 +1,22 @@
+// Hoare Partition
+
+fun Hoare_Partition(@init<table> a, low, high):
+    pivot = a[low]
+    i = low - 1
+    j = high + 1
+    while (true):
+        i += 1
+        while (a[i] < pivot):
+            i += 1
+        end while
+        j -= 1
+        while (a[j] > pivot):
+            j -= 1
+        end while
+        if (i >= j):
+            return j
+        end if
+        swap(a[i], a[j])
+    end while
+end fun
+

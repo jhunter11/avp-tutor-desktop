@@ -1,0 +1,108 @@
+{
+  "chapter": "corpus",
+  "dimensions": 2,
+  "seconds": 12,
+  "reading_hold_seconds": 9.0,
+  "camera_moves": [],
+  "text": [
+    {
+      "text": "Store passages with their sources",
+      "font": "STIX Two Text",
+      "declared_size": 36,
+      "width": 6.8877,
+      "height": 0.4705
+    },
+    {
+      "text": "AVP RAG  /  02 OF 09",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.8158,
+      "height": 0.2273
+    },
+    {
+      "text": "OFFLINE EXTRACT",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.645,
+      "height": 0.2273
+    },
+    {
+      "text": "For loop",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.539,
+      "height": 0.415
+    },
+    {
+      "text": "avp-syntax.\nfor-loop",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 1.8045,
+      "height": 0.818
+    },
+    {
+      "text": "Function",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.567,
+      "height": 0.3
+    },
+    {
+      "text": "avp-syntax.\nfunction-return",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 2.4165,
+      "height": 0.7355
+    },
+    {
+      "text": "Array",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.0018,
+      "height": 0.3949
+    },
+    {
+      "text": "avp-syntax.\narray-access",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 1.9783,
+      "height": 0.818
+    },
+    {
+      "text": "42 eligible passages",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 3.8452,
+      "height": 0.415
+    },
+    {
+      "text": "Notes, excerpts and syntax",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 4.3517,
+      "height": 0.3598
+    },
+    {
+      "text": "89 excluded records",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 3.8428,
+      "height": 0.3225
+    },
+    {
+      "text": "Full programs and saved answers",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 5.4181,
+      "height": 0.3598
+    },
+    {
+      "text": "Manual chunks retain source IDs and intact AVP code. Prose review is still pending.",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 13.4459,
+      "height": 0.3598
+    }
+  ],
+  "safe_frame_check": "passed"
+}

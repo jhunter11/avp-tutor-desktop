@@ -1,0 +1,33 @@
+{
+  "scope": "Synthetic fixed-v1 requests through the real old frontend Vite proxy, tutor backend and local RAG service; no browser-render or live-generation claim.",
+  "checks": [
+    {
+      "question": "How do I write an AVP for loop that visits every array element?",
+      "status": 200,
+      "expected_source": "avp-syntax.for-loop",
+      "source_present": true,
+      "offline_label_present": true,
+      "request_unchanged": true,
+      "response_fields": [
+        "schema_version",
+        "request_id",
+        "answer",
+        "error"
+      ]
+    },
+    {
+      "question": "How do I define a function and return a value in AVP?",
+      "status": 200,
+      "expected_source": "avp-syntax.function-return",
+      "source_present": true,
+      "offline_label_present": true,
+      "request_unchanged": true,
+      "response_fields": [
+        "schema_version",
+        "request_id",
+        "answer",
+        "error"
+      ]
+    }
+  ]
+}

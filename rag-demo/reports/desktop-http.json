@@ -1,0 +1,13 @@
+{
+  "page_http": 200,
+  "video_http": 200,
+  "video_sha256": "c0fca1fc96f36341c4b3602d21597fe76a639753a3aee0134233b4b976a5ec8e",
+  "query_http": 200,
+  "mode": "offline_source_extract",
+  "citations": [
+    "avp-syntax.for-loop",
+    "avp-syntax.array-access",
+    "avp-syntax.function-return"
+  ],
+  "scope": "Real HTTP against the copied built page and local embedding runtime; synthetic question, no answer-model call."
+}

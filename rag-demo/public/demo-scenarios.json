@@ -1,0 +1,35 @@
+[
+  {
+    "title": "For-loop syntax",
+    "question": "How do I write an AVP for loop that visits every array element?",
+    "expected_sources": [
+      "avp-syntax.for-loop"
+    ]
+  },
+  {
+    "title": "Function and return",
+    "question": "How do I define a function and return a value in AVP?",
+    "expected_sources": [
+      "avp-syntax.function-return"
+    ]
+  },
+  {
+    "title": "Arrays and indexes",
+    "question": "How do I create an AVP array and read its first element?",
+    "expected_sources": [
+      "avp-syntax.array-access"
+    ]
+  },
+  {
+    "title": "Assignment versus comparison",
+    "question": "What is the difference between = and == in AVP, and how do I write an if statement?",
+    "expected_sources": [
+      "avp-syntax.assignment-comparison"
+    ]
+  },
+  {
+    "title": "Outside the corpus",
+    "question": "How do I bake sourdough bread?",
+    "expected_sources": []
+  }
+]

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { abortable, askTutor, type TutorContext, type TutorTurn } from '../../tutor/client';
 import { captureScreenshots } from '../../tutor/capture';
 import '../../tutor/tutor.css';
+import AnswerText from '../../tutor/AnswerText';
 
 type Message = TutorTurn & { step: number, snapshot: string };
 
@@ -98,7 +99,7 @@ export default function AIPane({ context }: {
               {message.step}
               {message.snapshot !== snapshot ? ' · earlier view' : ''}
             </span>
-            <p>{message.content}</p>
+            <AnswerText text={message.content} />
           </article>
         ))}
         {pending && (

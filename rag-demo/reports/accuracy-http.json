@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-11-12T19:00:09.988933+00:00",
+  "scope": "Synthetic local requests; no live answer model or real learner context. Numerical API checks and old frontend fixed-envelope checks.",
+  "checks": [
+    {
+      "path": "standalone Vite \u2192 RAG",
+      "question": "How do I write an AVP for loop that visits every array element?",
+      "status": 200,
+      "expected_source_quoted": true,
+      "all_quotes_above_cutoff": true,
+      "scores_recomputed": true,
+      "response_bytes": 39041
+    },
+    {
+      "path": "standalone Vite \u2192 RAG",
+      "question": "If a linear search never finds its target, what should it return?",
+      "status": 200,
+      "expected_source_quoted": true,
+      "all_quotes_above_cutoff": true,
+      "scores_recomputed": true,
+      "response_bytes": 37596
+    },
+    {
+      "path": "old frontend Vite \u2192 tutor \u2192 RAG",
+      "question": "How do I write an AVP for loop that visits every array element?",
+      "status": 200,
+      "expected_source_quoted": true,
+      "fixed_envelope": true,
+      "offline_mode_verified_before_request": true,
+      "request_unchanged": true,
+      "response_bytes": 1273
+    },
+    {
+      "path": "old frontend Vite \u2192 tutor \u2192 RAG",
+      "question": "How do I define a function and return a value in AVP?",
+      "status": 200,
+      "expected_source_quoted": true,
+      "fixed_envelope": true,
+      "offline_mode_verified_before_request": true,
+      "request_unchanged": true,
+      "response_bytes": 1435
+    }
+  ]
+}

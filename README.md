@@ -1,5 +1,9 @@
 # AVP Tutor — Desktop Copy
 
+**For the current RAG presentation:** download [avp-rag-presentation.zip](https://github.com/jhunter11/avp-tutor-desktop/releases/latest/download/avp-rag-presentation.zip), extract it, and follow [rag-demo/DESKTOP.md](rag-demo/DESKTOP.md). It includes the two-pane RAG demo and the captioned 1080p Manim video. On Windows, install Python 3.11, run `Setup-RAG.cmd` once, then `Start-RAG.cmd` inside `rag-demo`. Open http://127.0.0.1:5192/. No API key is needed; the ZIP needs no Node or Manim.
+
+The current offline demo performs real local vector retrieval and quotes source text. The old frontend below can use the same service through its unchanged tutor API; see [RAG integration](docs/tutor/RAG_DEMO.md). The setup below describes the original frontend and optional live-provider mode.
+
 Algorithm visualizer with an integrated Hint/Explain tutor. The tutor receives the current student code, viewed interpreter state and visualization screenshots through one fixed API, then returns text guidance. It does not replace student code.
 
 This is a public development snapshot for running locally, based on the existing AVP frontend. It is not the team's merged release or Miami server deployment. See [source and changes](MODIFICATIONS.md) and the [API contract](docs/tutor/API.md).

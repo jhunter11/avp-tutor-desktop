@@ -1,0 +1,7 @@
+# Corpus and animation integrity checks hash exact file bytes on every OS.
+* text=auto eol=lf
+*.mp4 binary
+*.png binary
+# Preserve the validated upstream parser and example bytes, including whitespace.
+vendor/avp/** -whitespace
+public/examples/*.avp whitespace=-blank-at-eof

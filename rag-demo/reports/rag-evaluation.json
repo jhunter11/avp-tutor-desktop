@@ -1,0 +1,401 @@
+{
+  "recorded_at": "2026-11-12T18:54:43.355101+00:00",
+  "scope": "Authored smoke questions; seen during development. Not a held-out benchmark, teaching evaluation or human-learning evidence.",
+  "mode": "offline_source_extract",
+  "corpus_sha256": "c37208a5fb624919260d12d4e4833b25765bca45f95e2854fba06eb3a8a75bed",
+  "retrieval_hits_at_3": 13,
+  "retrieval_questions": 13,
+  "abstentions": 5,
+  "unsupported_questions": 5,
+  "expected_source_in_offline_answer": 13,
+  "limitation": "Exact extraction quotes up to three passages; including the expected source does not establish answer quality. Cutoffs are not calibrated. The authored set is not held out.",
+  "results": [
+    {
+      "question": "If a linear search never finds its target, what should it return?",
+      "expected_source": [
+        "linear_search.note.1"
+      ],
+      "returned_sources": [
+        "linear_search.note.3",
+        "linear_search.note.1",
+        "linear_search.note.2"
+      ],
+      "scores": [
+        0.610782,
+        0.608316,
+        0.49478
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "linear_search.note.3",
+        "linear_search.note.1"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 1693.4
+    },
+    {
+      "question": "Why must binary search use sorted input?",
+      "expected_source": [
+        "binary_search.note.1"
+      ],
+      "returned_sources": [
+        "avp-explanations.binary-search-order",
+        "binary_search.note.1",
+        "binary_search.note.3"
+      ],
+      "scores": [
+        0.799606,
+        0.733756,
+        0.520239
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "avp-explanations.binary-search-order",
+        "binary_search.note.1",
+        "binary_search.note.3"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 30.3
+    },
+    {
+      "question": "Which values does bubble sort compare and swap?",
+      "expected_source": [
+        "bubble_sort.note.1"
+      ],
+      "returned_sources": [
+        "bubble_sort.note.3",
+        "bubble_sort.note.1",
+        "bubble_sort.note.2"
+      ],
+      "scores": [
+        0.781057,
+        0.733007,
+        0.62956
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "bubble_sort.note.3",
+        "bubble_sort.note.1",
+        "bubble_sort.note.2"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 29.6
+    },
+    {
+      "question": "What value should insertion sort save before shifting?",
+      "expected_source": [
+        "insertion_sort.note.2"
+      ],
+      "returned_sources": [
+        "avp-explanations.insertion-saved-key",
+        "insertion_sort.note.3",
+        "insertion_sort.note.2"
+      ],
+      "scores": [
+        0.769456,
+        0.672256,
+        0.662554
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "avp-explanations.insertion-saved-key",
+        "insertion_sort.note.3",
+        "insertion_sort.note.2"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 30.3
+    },
+    {
+      "question": "Does selection sort minimum store an index or a value?",
+      "expected_source": [
+        "selection_sort.note.2"
+      ],
+      "returned_sources": [
+        "selection_sort.note.2",
+        "selection_sort.note.3",
+        "selection_sort.excerpt"
+      ],
+      "scores": [
+        0.785094,
+        0.607665,
+        0.589322
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "selection_sort.note.2",
+        "selection_sort.note.3",
+        "selection_sort.excerpt"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 27.9
+    },
+    {
+      "question": "How does comparison counting sort give equal values different ranks?",
+      "expected_source": [
+        "comparison_counting_sort.note.2"
+      ],
+      "returned_sources": [
+        "comparison_counting_sort.note.2",
+        "comparison_counting_sort.note.1",
+        "comparison_counting_sort.note.3"
+      ],
+      "scores": [
+        0.783411,
+        0.735524,
+        0.682522
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "comparison_counting_sort.note.2",
+        "comparison_counting_sort.note.1",
+        "comparison_counting_sort.note.3"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 29.2
+    },
+    {
+      "question": "When should Check Unique return that every element is different?",
+      "expected_source": [
+        "check_unique.note.3"
+      ],
+      "returned_sources": [
+        "check_unique.note.3",
+        "check_unique.note.2",
+        "check_unique.note.1"
+      ],
+      "scores": [
+        0.616573,
+        0.598111,
+        0.534506
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "check_unique.note.3",
+        "check_unique.note.2",
+        "check_unique.note.1"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 28.1
+    },
+    {
+      "question": "Which element is the pivot in Lomuto partition?",
+      "expected_source": [
+        "lomuto_partition.note.1"
+      ],
+      "returned_sources": [
+        "lomuto_partition.note.1",
+        "lomuto_partition.note.3",
+        "lomuto_partition.note.2"
+      ],
+      "scores": [
+        0.71826,
+        0.672202,
+        0.662292
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "lomuto_partition.note.1",
+        "lomuto_partition.note.3",
+        "lomuto_partition.note.2"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 46.1
+    },
+    {
+      "question": "When does Hoare partition return its split?",
+      "expected_source": [
+        "hoare_partition.note.3"
+      ],
+      "returned_sources": [
+        "hoare_partition.note.2",
+        "hoare_partition.note.1",
+        "hoare_partition.note.3"
+      ],
+      "scores": [
+        0.552356,
+        0.539019,
+        0.53807
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "hoare_partition.note.2",
+        "hoare_partition.note.1",
+        "hoare_partition.note.3"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 28.5
+    },
+    {
+      "question": "How do I bake sourdough bread?",
+      "expected_source": [],
+      "returned_sources": [],
+      "scores": [],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 30.5
+    },
+    {
+      "question": "Who won the World Cup in 1998?",
+      "expected_source": [],
+      "returned_sources": [],
+      "scores": [],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 29.2
+    },
+    {
+      "question": "How do I write an AVP for loop that visits every array element?",
+      "expected_source": [
+        "avp-syntax.for-loop"
+      ],
+      "returned_sources": [
+        "avp-syntax.array-access",
+        "avp-syntax.for-loop",
+        "check_unique.excerpt"
+      ],
+      "scores": [
+        0.679021,
+        0.674537,
+        0.664623
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "avp-syntax.array-access",
+        "avp-syntax.for-loop",
+        "check_unique.excerpt"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 28.6
+    },
+    {
+      "question": "How do I define a function and return a value in AVP?",
+      "expected_source": [
+        "avp-syntax.function-return"
+      ],
+      "returned_sources": [
+        "avp-syntax.function-return",
+        "avp-syntax.assignment-comparison",
+        "avp-syntax.for-loop"
+      ],
+      "scores": [
+        0.728726,
+        0.575934,
+        0.562692
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "avp-syntax.function-return",
+        "avp-syntax.assignment-comparison",
+        "avp-syntax.for-loop"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 28.8
+    },
+    {
+      "question": "How do I create an AVP array and read its first element?",
+      "expected_source": [
+        "avp-syntax.array-access"
+      ],
+      "returned_sources": [
+        "avp-syntax.array-access",
+        "avp-syntax.for-loop",
+        "check_unique.excerpt"
+      ],
+      "scores": [
+        0.735792,
+        0.609621,
+        0.590444
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "avp-syntax.array-access",
+        "avp-syntax.for-loop",
+        "check_unique.excerpt"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 28.9
+    },
+    {
+      "question": "What is the difference between = and == in AVP, and how do I write an if statement?",
+      "expected_source": [
+        "avp-syntax.assignment-comparison"
+      ],
+      "returned_sources": [
+        "avp-syntax.assignment-comparison",
+        "avp-syntax.for-loop",
+        "avp-syntax.array-access"
+      ],
+      "scores": [
+        0.846976,
+        0.619537,
+        0.566635
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [
+        "avp-syntax.assignment-comparison",
+        "avp-syntax.for-loop",
+        "avp-syntax.array-access"
+      ],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 29.1
+    },
+    {
+      "question": "How do I bake sourdough bread?",
+      "expected_source": [],
+      "returned_sources": [],
+      "scores": [],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 27.9
+    },
+    {
+      "question": "How does merge sort combine the two halves?",
+      "expected_source": [],
+      "returned_sources": [
+        "comparison_counting_sort.note.3",
+        "hoare_partition.note.3",
+        "comparison_counting_sort.note.2"
+      ],
+      "scores": [
+        0.465172,
+        0.44873,
+        0.415012
+      ],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 29.7
+    },
+    {
+      "question": "How does Dijkstra choose the next vertex?",
+      "expected_source": [],
+      "returned_sources": [],
+      "scores": [],
+      "expected_source_in_top_3_or_abstention": true,
+      "answer_citations": [],
+      "expected_source_in_answer": true,
+      "answer_exactly_from_cited_sources": true,
+      "elapsed_ms": 29.0
+    }
+  ]
+}

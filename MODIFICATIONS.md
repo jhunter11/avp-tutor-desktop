@@ -10,4 +10,6 @@ Frontend integration changes affect `app/components/Visualizer.tsx`, `app/compon
 
 This public copy adds desktop setup instructions and validation notes, selects the locally checked Node 24.19.0 runtime in `.nvmrc`, and expands ignore rules. It is a fresh source snapshot without upstream Git history, internal issue/MR drafts, local audit paths, credentials or learner conversations. It is separate from the still-unmerged GitLab integration branch.
 
-RAG, an improvement harness, student simulation and a saved-correct-solution button are future work. No student-learning result or production readiness is claimed.
+Updated November 12, 2026: `rag-demo/` adds local MiniLM retrieval, a hash-checked AVP corpus, source extraction, vector inspection, saved diagnostic results, and a captioned 1080p Manim video. It includes original source attribution and the grammar snapshot needed for validation. The release ZIP adds the built page; environments and embedding model weights are excluded. The existing frontend gains an optional loopback RAG bridge and inert code-block display. Its public tutor request and text response remain fixed. Offline source extracts do not analyze student code or screenshots. Live grounded generation remains unverified.
+
+An improvement harness, student simulation and a saved-correct-solution button remain future work. No student-learning result or production readiness is claimed. Team planning charts and GitLab issue/MR drafts are outside this snapshot.

@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-11-12T19:26:32.034862+00:00",
+  "format": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "30/1"
+      }
+    ],
+    "format": {
+      "duration": "134.000000"
+    }
+  },
+  "video_path": "public/media/avp-rag-walkthrough.mp4",
+  "video_sha256": "c0fca1fc96f36341c4b3602d21597fe76a639753a3aee0134233b4b976a5ec8e",
+  "snapshot_sha256": "b24e990eff03597fd3f416e9044c0fa2136e7524497d5a1d671fdbd6bed2aee2",
+  "scene_sha256": "b3de881071a397a3a6bc56a6a0f4bae235b892ccf54cedb2060c9c0bc62e621d",
+  "scope": "Validated recorded vectors, exact code/citations, source hashes and timing before publishing this local render. No inference runs inside the video."
+}

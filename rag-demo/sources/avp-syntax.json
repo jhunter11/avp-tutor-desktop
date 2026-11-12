@@ -1,0 +1,35 @@
+{
+  "passages": [
+    {
+      "id": "for-loop",
+      "locator": "forLoop rule; array access",
+      "text": "AVP for-loop syntax uses an initialization, a condition and an update inside parentheses, followed by a colon. Put the body on new lines and close the block with end for. Use i < length(a) to visit indexes 0 through length(a) - 1. Semicolons separate the header fields; commas are also accepted by this grammar.\n\n```avp\na = arr[4, 9, 7]\ntotal = 0\nfor (i = 0; i < length(a); i += 1):\n    total += a[i]\nend for\nresult = total\n```",
+      "expected_result": 20
+    },
+    {
+      "id": "function-return",
+      "locator": "functionDecl and returnStatement rules",
+      "text": "Define an AVP function with fun Name(parameters):, then a newline and the function body. Close it with end fun. A return expression sends a value back to the caller and exits that call. Call the function by its name with arguments in parentheses.\n\n```avp\nfun Twice(x):\n    return x * 2\nend fun\nresult = Twice(5)\n```",
+      "expected_result": 10
+    },
+    {
+      "id": "array-access",
+      "locator": "arrayInitialization, assignable and ArrayAccessExpression rules",
+      "text": "Create an AVP array with arr followed by comma-separated values in square brackets. Use a[index] to read or update one element. Array indexes start at 0, so a[0] is the first element and length(a) - 1 is the last valid index. This example changes the second element without replacing the whole array.\n\n```avp\na = arr[4, 9, 7]\nfirst = a[0]\na[1] = 8\nresult = first\n```",
+      "expected_result": 4,
+      "expected_globals": {
+        "a": [
+          4,
+          8,
+          7
+        ]
+      }
+    },
+    {
+      "id": "assignment-comparison",
+      "locator": "assignment, ifStatement and comparisonExpression rules",
+      "text": "In AVP, = assigns a value while == compares values for equality. An if condition ends with a colon; its body starts on the next line and closes with end if. An optional else introduces the other branch. The comparison operators include ==, !=, <, <=, > and >=.\n\n```avp\nx = 5\nif (x == 5):\n    result = 1\nelse:\n    result = 0\nend if\n```",
+      "expected_result": 1
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "chapter": "embed",
+  "dimensions": 2,
+  "seconds": 12,
+  "reading_hold_seconds": 6.6,
+  "camera_moves": [],
+  "text": [
+    {
+      "text": "Encode text as numbers",
+      "font": "STIX Two Text",
+      "declared_size": 36,
+      "width": 4.9994,
+      "height": 0.3584
+    },
+    {
+      "text": "AVP RAG  /  03 OF 09",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.8158,
+      "height": 0.2273
+    },
+    {
+      "text": "OFFLINE EXTRACT",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.645,
+      "height": 0.2273
+    },
+    {
+      "text": "MiniLM",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 1.3229,
+      "height": 0.2949
+    },
+    {
+      "text": "Same encoder for question and sources",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 4.4266,
+      "height": 0.7963
+    },
+    {
+      "text": "384 components",
+      "font": "Avenir Next",
+      "declared_size": 30,
+      "width": 3.1793,
+      "height": 0.4025
+    },
+    {
+      "text": "Vector length = 1.000000",
+      "font": "Avenir Next",
+      "declared_size": 28,
+      "width": 4.4925,
+      "height": 0.3873
+    },
+    {
+      "text": "The heatmap stays flat: rows preserve component order. Colour shows sign and magnitude.",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 13.0167,
+      "height": 0.8787
+    }
+  ],
+  "safe_frame_check": "passed"
+}

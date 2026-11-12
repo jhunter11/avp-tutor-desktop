@@ -1,0 +1,12 @@
+// Linear Search
+
+fun Linear_Search(@init<table> a, key):
+    n = length(a)
+    for (i = 0; i < n; i += 1):
+        if (a[i] == key):
+            return i
+        end if
+    end for
+    return -1
+end fun
+

@@ -1,0 +1,178 @@
+{
+  "chapter": "rank",
+  "dimensions": 2,
+  "seconds": 16,
+  "reading_hold_seconds": 6.2,
+  "camera_moves": [],
+  "text": [
+    {
+      "text": "Compare all eligible vectors",
+      "font": "STIX Two Text",
+      "declared_size": 36,
+      "width": 5.8078,
+      "height": 0.4705
+    },
+    {
+      "text": "AVP RAG  /  05 OF 09",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.8158,
+      "height": 0.2273
+    },
+    {
+      "text": "OFFLINE EXTRACT",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.645,
+      "height": 0.2273
+    },
+    {
+      "text": "0",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 0.1418,
+      "height": 0.2273
+    },
+    {
+      "text": "0.5",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 0.3926,
+      "height": 0.2273
+    },
+    {
+      "text": "1",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 0.0746,
+      "height": 0.2162
+    },
+    {
+      "text": "Cosine similarity",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 2.6623,
+      "height": 0.3598
+    },
+    {
+      "text": "avp-syntax.array-access",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 3.227,
+      "height": 0.2566
+    },
+    {
+      "text": "0.679",
+      "font": "Avenir Next",
+      "declared_size": 24,
+      "width": 0.8214,
+      "height": 0.248
+    },
+    {
+      "text": "avp-syntax.for-loop",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.6412,
+      "height": 0.3078
+    },
+    {
+      "text": "0.675",
+      "font": "Avenir Next",
+      "declared_size": 24,
+      "width": 0.815,
+      "height": 0.248
+    },
+    {
+      "text": "check_unique.excerpt",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 3.0491,
+      "height": 0.3043
+    },
+    {
+      "text": "0.665",
+      "font": "Avenir Next",
+      "declared_size": 24,
+      "width": 0.815,
+      "height": 0.248
+    },
+    {
+      "text": "Answer cutoff 0.5",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 2.3955,
+      "height": 0.24
+    },
+    {
+      "text": "Where the loop score comes from",
+      "font": "Avenir Next",
+      "declared_size": 28,
+      "width": 5.9815,
+      "height": 0.392
+    },
+    {
+      "text": "1",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 0.0746,
+      "height": 0.2162
+    },
+    {
+      "text": "12",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 0.2963,
+      "height": 0.2219
+    },
+    {
+      "text": "24",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 0.3266,
+      "height": 0.2219
+    },
+    {
+      "text": "0",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 0.1418,
+      "height": 0.2273
+    },
+    {
+      "text": "+0.06",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 0.7723,
+      "height": 0.2273
+    },
+    {
+      "text": "-0.06",
+      "font": "Avenir Next",
+      "declared_size": 22,
+      "width": 0.6757,
+      "height": 0.2273
+    },
+    {
+      "text": "24 blocks \u00d7 16 components",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 4.5408,
+      "height": 0.3598
+    },
+    {
+      "text": "cos \u03b8 = 0.674537",
+      "font": "STIX Two Text",
+      "declared_size": 32,
+      "width": 3.0847,
+      "height": 0.323
+    },
+    {
+      "text": "Similarity does not establish that a passage answers the question.",
+      "font": "Avenir Next",
+      "declared_size": 26,
+      "width": 10.6724,
+      "height": 0.3598
+    }
+  ],
+  "safe_frame_check": "passed"
+}

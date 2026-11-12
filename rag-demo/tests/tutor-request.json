@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "request_id": "synthetic-frontend-review",
+  "question": "Why can the search return -1?",
+  "mode": "hint",
+  "history": [],
+  "context": {
+    "algorithm": "Linear Search",
+    "student_code": "a1 = arr[1, 10, 5, 6, 4, 7, 19]\nkey = 7\n\n// Finds the first occurence of an element in an array\nfun Linear_Search(@init<table> a, k):\n    n = length(a)\n\n    for @mark<i, outline, yellow> (i = 0; i < n; i += 1):\n        @mark<i, text, fg> if (a[i] == k):\n            @mark<i, highlight, green> return i\n        end if\n    end for\n\n    @log<\"Not found: \"> return -1\nend fun\n\nresult = Linear_Search(a1, key)\n",
+    "executed_code": "a1 = arr[1, 10, 5, 6, 4, 7, 19]\nkey = 7\n\n// Finds the first occurence of an element in an array\nfun Linear_Search(@init<table> a, k):\n    n = length(a)\n\n    for @mark<i, outline, yellow> (i = 0; i < n; i += 1):\n        @mark<i, text, fg> if (a[i] == k):\n            @mark<i, highlight, green> return i\n        end if\n    end for\n\n    @log<\"Not found: \"> return -1\nend fun\n\nresult = Linear_Search(a1, key)\n",
+    "viewed_state": {
+      "step": 0,
+      "total_steps": 0,
+      "highlighted_lines": null,
+      "variables": {},
+      "last_step": {},
+      "code_matches_execution": true
+    },
+    "screenshots": [
+      {
+        "label": "Synthetic example only; not a captured learner view",
+        "data_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII="
+      }
+    ]
+  }
+}
